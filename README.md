@@ -8,7 +8,7 @@ The purpose of this analysis is to help maximize the likelihood of success of Lo
 To analyze both the outcomes based on launch date and the outcome based on goals, filtered the data to make sure I was only analyzing relevant data. Then, I made a line graph to represent the data graphically.
 ### Analysis of Outcomes Based on Launch Date
 To analyze the outcomes based on launch date, I used a PivotTable. I filtered the PivotTable based on years and parent category. I put the outcomes into columns, count of outcomes in values, and date created in rows as shown in the screenshot below.
-
+![Pivottable](https://user-images.githubusercontent.com/109701875/182739203-1bb582bf-8860-4317-ace2-59581b0f1a7b.PNG)
  
 
 I then made a line graph to show how each month compared.
@@ -29,6 +29,7 @@ The main conclusion I draw from outcomes based on goals is that Kickstarter camp
 - What are some limitations of this dataset?
 The first limit of the dataset is that it only contains projects up to 2017. It is quite possible that the trends we are analyzing have changed significantly since 2017.
 Second, the dataset is lacking data on donors. How often are successful projects often funded by friends and family or by former fans or customers of an established group? Both questions are relevant to our analysis as it may affect the likelihood of success of a project. 
-Finally, the dataset is missing any efforts taken outside of Kickstarter to advertise the project or attract donors. These efforts can be rather extensive and may be a serious contributor to the success of a project. For example, https://www.kickstarter.com/projects/mattcolville/mcdm-monster-book?ref=discovery&term=mcdm is a project that raised three times its rather significant $600,000 goal. Efforts to advertise this project outside of Kickstarter include three YouTube videos (https://www.youtube.com/watch?v=23hEW88OtVM&t=50s, https://www.youtube.com/watch?v=zasXVokJrEk&t=89s, https://www.youtube.com/watch?v=LhJeOOGiWGM ) each with over 50,000 views alongside other efforts.  
+Finally, the dataset is missing any efforts taken outside of Kickstarter to advertise the project or attract donors. These efforts can be rather extensive and may be a serious contributor to the success of a project. For example, https://www.kickstarter.com/projects/mattcolville/mcdm-monster-book?ref=discovery&term=mcdm is a project that raised three times its rather significant $600,000 goal. Efforts to advertise this project outside of Kickstarter include three YouTube videos
+(https://www.youtube.com/watch?v=23hEW88OtVM&t=50s, https://www.youtube.com/watch?v=zasXVokJrEk&t=89s, https://www.youtube.com/watch?v=LhJeOOGiWGM ) each with over 50,000 views alongside other efforts.  
 - What are some other possible tables and/or graphs that we could create?
 One possible different table to look at would be to combine the two tables I created. Although there may be sample size issues looking at theater projects by goal may provide useful information. Another useful table would be to look at the success of projects based on length of campaign. I could create this table by subtracting the creation date from the deadline to determine the length of the project then sorting by success, failure, and cancellation. A final graph we could construct would be a regression analysis of if the spotlight assists with a successful project.
