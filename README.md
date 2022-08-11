@@ -17,6 +17,7 @@ I then made a line graph to show how each month compared.
 
 ### Analysis of Outcomes Based on Goals
 To analyze the outcome based on goals, I used COUNTIFS to determine the number of successes, failures, and cancels for each category. For example, I used the code COUNTIFS(Kickstarter!D:D, "<1000",  Kickstarter!F:F, "successful") to determine the number of successful campaigns that aimed to raise under $1000. After calculating the number of successes, failures, and cancels I used SUM to determine the total number of projects in each category. For example, I used the code =SUM(B2:D2) to determine the number of successful campaigns that aimed to raise under $1000. Then, I calculated the percentage of successes, failures, and cancels by dividing each by the total number of projects.  For example, I used the code =B2/E2 in a percentage box to determine 75.81% of all finished projects that try to raise under $1000 are successful. Then I made the line graph below.
+
 ![Theater_Outcomes_vs_Launch](https://user-images.githubusercontent.com/109701875/184043368-9c91b4e3-f0d2-4456-991b-455faf3df9ff.png)
 
 
